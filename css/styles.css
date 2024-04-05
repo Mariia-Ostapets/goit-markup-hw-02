@@ -44,9 +44,23 @@ address {
 .address-contacts:focus {
     color: #404bbf;
     }
-.logo-first-part:hover,.logo-second-part:hover {
-    color: #8e8f99;
+.section-first-button {
+    background-color: #2e2f42;
 }
-.logo-first-part:focus,.logo-second-part:focus {
-    color: #31d0aa;
+.head-main {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+button {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
 }
