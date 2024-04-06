@@ -74,10 +74,10 @@ a {
     background-color: #4d5ae5;
 }
 .hero-button:hover {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 .hero-button:focus{
-    color: #404BBF;
+    background-color: #404BBF;
 }
 .benefits-name {
     font-weight: 500;
