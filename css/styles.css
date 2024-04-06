@@ -30,6 +30,12 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.menu-nav-list:hover {
+    color: #FF5733;
+}
+.menu-nav-list:focus {
+    color: #8B0000;
+}
 address {
     font-style: normal;
     font-weight: 400;
@@ -39,10 +45,10 @@ address {
     color: #434455;
 }
 .address-contacts:hover {
-    color: #4d5ae5;
+    color: #FF5733;
 }
 .address-contacts:focus {
-    color: #404bbf;
+    color: #8B0000;
     }
 .hero {
     background-color: #2e2f42;
@@ -67,10 +73,10 @@ button {
     background-color: #4d5ae5;
 }
 button:hover {
-    color: #4d5ae5;
+    color: #FF5733;
 }
 button:focus{
-    color: #404bbf;
+    color: #8B0000;
 }
 .benefits-name {
     font-weight: 500;
