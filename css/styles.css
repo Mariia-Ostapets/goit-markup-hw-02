@@ -1,6 +1,6 @@
 body {
-    font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: #ffffff;
 }
 ul, ol {
@@ -16,11 +16,9 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-.logo-header-first-part {
     color: #4d5ae5;
 }
-.logo-header-second-part {
+.logo-header-part {
     color: #2e2f42;
 }
 .menu-nav-list {
@@ -31,13 +29,15 @@ a {
     color: #2e2f42;
 }
 .menu-nav-list:hover {
-    color: #FF5733;
+    color: #404bbf;
 }
 .menu-nav-list:focus {
-    color: #8B0000;
+    color: #404bbf;
 }
-address {
+.address {
     font-style: normal;
+}
+.address-contacts {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -45,10 +45,10 @@ address {
     color: #434455;
 }
 .address-contacts:hover {
-    color: #FF5733;
+    color: #404bbf;
 }
 .address-contacts:focus {
-    color: #8B0000;
+    color: #404bbf;
     }
 .hero {
     background-color: #2e2f42;
@@ -62,7 +62,8 @@ address {
     text-transform: capitalize;
     color: #ffffff;
 }
-button {
+.hero-button {
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -72,11 +73,11 @@ button {
     color: #ffffff;
     background-color: #4d5ae5;
 }
-button:hover {
-    color: #FF5733;
+.hero-button:hover {
+    color: #404BBF;
 }
-button:focus{
-    color: #8B0000;
+.hero-button:focus{
+    color: #404BBF;
 }
 .benefits-name {
     font-weight: 500;
@@ -148,7 +149,7 @@ button:focus{
     letter-spacing: 0.02em;
     color: #434455;
 }
-footer {
+.footer {
     background: #2e2f42;
 }
 .logo-footer {
@@ -158,11 +159,9 @@ footer {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-.logo-footer-first-part {
     color: #4d5ae5;
 }
-.logo-footer-second-part {
+.logo-footer-part {
     color: #f4f4fd;
 }
 .logo-footer-description {
